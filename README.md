@@ -51,5 +51,55 @@ Project Files
 - cleaned_netflix.csv
 - Visualization PNG files
 
-Author
-Mohit Bijoria
+# Task 2 - Predictive Modeling Using Machine Learning
+
+## Objective
+
+The goal of this project is to build a Machine Learning model that predicts whether a Netflix title is a Movie or a TV Show based on its features.
+
+## Dataset
+
+Netflix Movies and TV Shows Dataset
+
+## Data Preparation
+
+* Loaded the cleaned Netflix dataset.
+* Selected relevant features for machine learning.
+* Handled missing values.
+* Encoded categorical variables into numerical format.
+* Created a machine-learning-ready dataset.
+
+## Machine Learning Algorithms Used
+
+1. Logistic Regression
+2. Decision Tree Classifier
+3. Random Forest Classifier
+
+## Model Comparison
+
+| Model                    | Accuracy |
+| ------------------------ | -------- |
+| Logistic Regression      | 76.12%   |
+| Decision Tree Classifier | 99.89%   |
+| Random Forest Classifier | 99.60%   |
+
+## Best Model
+
+Decision Tree Classifier
+
+## Evaluation Metrics
+
+* Accuracy: 99.89%
+* Precision: 99.61%
+* Recall: 100.00%
+* F1 Score: 99.81%
+
+## Visualizations
+
+* Confusion Matrix
+* ROC Curve
+
+## Conclusion
+
+The Decision Tree Classifier achieved the highest accuracy and overall performance among all tested models. The model successfully classified Netflix content as Movies or TV Shows with excellent predictive accuracy.
+
